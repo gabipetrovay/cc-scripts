@@ -1,4 +1,4 @@
-setTimeout(function () {
+$(document).ready(function () {
 
     $(".filterBtn").click (function () {
         var el = $(this).next(".filterBubble");
@@ -79,4 +79,4 @@ setTimeout(function () {
     });
     /*End templates page functions*/
 
-}, 3000);
+});

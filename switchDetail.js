@@ -1,4 +1,4 @@
-setTimeout(function () {
+$(document).ready(function () {
         $('#contentContainer').on('click', '#dataTable', function() {
             $('#leftContainer').hide();
             $('#dataContainer').hide();
@@ -10,4 +10,4 @@ setTimeout(function () {
             $('#leftContainer').show();
             $('#dataContainer').show();
         });
-}, 3000);
+});
