@@ -78,5 +78,9 @@ $(document).ready(function () {
         });
     });
     /*End templates page functions*/
+    if (top.location.pathname === '/sample'){
+        $('body').scrollspy();
+        $('#sidebar').affix()
+    }
 
 });

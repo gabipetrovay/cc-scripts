@@ -10,7 +10,8 @@
         "http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js",
         "http://twitter.github.io/bootstrap/assets/js/bootstrap-scrollspy.js",
         "//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js",
-        "http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"
+        "http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js",
+        "http://twitter.github.io/bootstrap/assets/js/bootstrap-affix.js"
     ],
     "operations": [ ]
 }
