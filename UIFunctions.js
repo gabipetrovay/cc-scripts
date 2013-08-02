@@ -82,6 +82,13 @@ $(document).ready(function () {
     if (top.location.pathname === '/sample'){
         $('body').scrollspy();
         $('#sidebar').affix()
+
+       $('.header').click(function(){
+            $.pnotify({
+                title: 'Regular Notice',
+                text: 'Check me out! I\'m a notice.'
+            });
+       });
     }
 
 });
