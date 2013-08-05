@@ -1,3 +1,4 @@
+M.wrap('github/lucaboieru/dms-scripts/dev/UIFunctions.js', function (require, module, exports) {
 $(document).ready(function () {
 
     $(".filterBtn").click (function () {
@@ -80,3 +81,5 @@ $(document).ready(function () {
     /*End templates page functions*/
 
 });
+
+return module; });
