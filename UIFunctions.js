@@ -1,14 +1,7 @@
 M.wrap('github/lucaboieru/dms-scripts/dev/UIFunctions.js', function (require, module, exports) {
 $(document).ready(function () {
 
-    $(".filterBtn").click (function () {
-        var el = $(this).next(".filterBubble");
-        if(el.css("display") == "none"){
-            $(".filterBubble").css("display", "none");
-            el.css("display", "block");
-        } else
-            el.css("display", "none");
-    });
+    $("#save-btn").popover('toggle');
 
     $("#contentContainer").on('click', ".addBtn", function () {
         $(this).parent().prev(".addBubble").fadeIn(100);
