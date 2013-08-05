@@ -7,7 +7,7 @@
         "/UIFunctions.js",
         "github/jillix/bind/v0.1.0",
         "github/jillix/events/v0.1.2",
-        "http://jquery.pnotify.js",
+        "/jquery.pnotify.js",
         "http://twitter.github.io/bootstrap/assets/js/bootstrap-popover.js",
         "http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js",
         "http://twitter.github.io/bootstrap/assets/js/bootstrap-scrollspy.js",
