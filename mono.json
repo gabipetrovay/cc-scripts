@@ -3,7 +3,6 @@
     "owner": "lucaboieru",
     "name": "cc-scripts",
     "dependencies": [
-        "/switchDetail.js",
         "/UIFunctions.js",
         "github/jillix/bind/v0.1.0",
         "github/jillix/events/v0.1.2",

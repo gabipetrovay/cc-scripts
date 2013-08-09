@@ -1,3 +1,4 @@
+M.wrap('github/lucaboieru/cc-scripts/dev/jquery.pnotify.js', function (require, module, exports) {
 /*
  * jQuery Pines Notify (pnotify) Plugin 1.2.0
  *
@@ -910,3 +911,4 @@
 		stack: {"dir1": "down", "dir2": "left", "push": "bottom", "spacing1": 25, "spacing2": 25}
 	};
 })(jQuery);
+return module; });

@@ -1,7 +1,14 @@
 M.wrap('github/lucaboieru/cc-scripts/dev/UIFunctions.js', function (require, module, exports) {
+
 $(document).ready(function () {
 
-    $("#save-btn").popover('toggle');
+    $(document).keyup(function(e) {
+        var el = $("#detail_view_container");
+        
+        if (e.keyCode == 27 && el.css("display") == "block") { 
+            el.fadeOut(300);
+        }
+    });
 
     $("#contentContainer").on('click', ".addBtn", function () {
         $(this).parent().prev(".addBubble").fadeIn(100);
