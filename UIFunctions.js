@@ -1,3 +1,4 @@
+M.wrap('github/lucaboieru/cc-scripts/dev/UIFunctions.js', function (require, module, exports) {
 $(document).ready(function () {
 
     $("#save-btn").popover('toggle');
@@ -84,3 +85,4 @@ $(document).ready(function () {
     }
 
 });
+return module; });

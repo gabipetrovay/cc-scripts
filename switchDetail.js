@@ -1,3 +1,4 @@
+M.wrap('github/lucaboieru/cc-scripts/dev/switchDetail.js', function (require, module, exports) {
 $(document).ready(function () {
         $('#contentContainer').on('click', '#dataTable', function() {
             $('#leftContainer').hide();
@@ -11,3 +12,4 @@ $(document).ready(function () {
             $('#dataContainer').show();
         });
 });
+return module; });
