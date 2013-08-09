@@ -4,9 +4,23 @@ $(document).ready(function () {
 
     $(document).keyup(function(e) {
         var el = $("#detail_view_container");
+        var el2 = $("#detail_view_container_articles");
         
         if (e.keyCode == 27 && el.css("display") == "block") { 
             el.fadeOut(300);
+        }
+        if(e.keyCode == 27 && el2.css("display") == "block") {
+            el2.fadeOut(300);
+        }
+    });
+
+    /* detail Popup */
+
+    $("body").on('click', '#dataTable', function (){
+        if($("#submenu_list_templates .active").text() == "Articles") {
+            $('#detail_view_container_articles').fadeIn(300);
+        } else {
+            $('#detail_view_container').fadeIn(300);
         }
     });
 
