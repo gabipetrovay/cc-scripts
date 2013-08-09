@@ -1,7 +1,7 @@
 {
     "source": "github",
     "owner": "lucaboieru",
-    "name": "dms-scripts",
+    "name": "cc-scripts",
     "dependencies": [
         "/switchDetail.js",
         "/UIFunctions.js",
