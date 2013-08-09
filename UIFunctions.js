@@ -79,6 +79,15 @@ $(document).ready(function () {
         });
     });
     /*End templates page functions*/
+
+    /* Detail_view Functions*/
+    $('#detail_users_table .tableCheckbox').on('click', function(e){
+        $el = $(this).children('input[type=checkbox]');
+        var toggleCheck = $el.is(':checked') ? false : true;
+        $el.prop('checked', toggleCheck);
+    });
+
+    /*END*/
     if (top.location.pathname === '/sample'){
         $('body').scrollspy();
         $('#sidebar').affix()
